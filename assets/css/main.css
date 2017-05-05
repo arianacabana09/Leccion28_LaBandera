@@ -18,14 +18,32 @@ h1{
   float: none;
 }
 
-#amarillo{
+#amarillo, #amarillo-dos{
   background-color: rgb(255, 252, 0);
 }
 
-#azul{
+#azul, #azul-dos{
   background-color: rgb(0, 3, 255);
 }
 
-#rojo{
+#rojo, #rojo-dos{
   background-color: rgb(255, 0, 0);
+}
+
+/*Float left*/
+
+.contenedor-dos{
+  border: 2px solid rgb(129, 129, 129);
+  width: 100%;
+  height: 200px;
+  overflow: auto;
+  margin-top: 20px;
+}
+
+#amarillo-dos,
+#azul-dos,
+#rojo-dos{
+  width: 250px;
+  height: 200px;
+  float: left;
 }
